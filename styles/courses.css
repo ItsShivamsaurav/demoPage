@@ -1,0 +1,82 @@
+/* Add this to styles.css */
+
+.course-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.course {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.course:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.course h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.course p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.course button {
+    padding: 10px 20px;
+    background-color: #2a4d7b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.course button:hover {
+    background-color: #1e3b5b;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #2a4d7b;
+    color: white;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff9900;
+}
+
+header .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}

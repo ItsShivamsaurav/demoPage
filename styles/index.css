@@ -1,0 +1,230 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fc;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #2a4d7b;
+    color: white;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #ff9900;
+}
+
+header .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+}
+
+/* Main Banner Section */
+.banner {
+    background-image: url('banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #ff7700;
+}
+
+/* Featured Courses Section */
+.featured-courses {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.featured-courses h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.course {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.enroll-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    background-color: #2a4d7b;
+    color: white;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.enroll-btn:hover {
+    background-color: #1e3b5b;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #fff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.feature {
+    width: 20%;
+    text-align: center;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+/* Upcoming Events Section */
+.upcoming-events {
+    background-color: #f4f7fc;
+    padding: 4rem 2rem;
+}
+
+.upcoming-events h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.upcoming-events ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.upcoming-events ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.upcoming-events a {
+    color: #2a4d7b;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2a4d7b;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+footer .footer-left p,
+footer .footer-center a,
+footer .footer-right form {
+    font-size: 1rem;
+}
+
+footer .footer-left p {
+    margin-bottom: 0;
+}
+
+footer .footer-center a {
+    color: white;
+    margin-right: 15px;
+}
+
+footer .footer-right form input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+footer .footer-right button {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer .footer-right button:hover {
+    background-color: #ff7700;
+}
