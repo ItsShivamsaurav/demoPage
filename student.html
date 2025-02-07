@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - EduOnline</title>
+    <link rel="stylesheet" href="./styles/student.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            <div class="header-content">
+                <div class="logo">
+                    <h1>EduOnline</h1>
+                </div>
+                <nav>
+                    <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="courses.html">Courses</a></li>
+                            <li><a href="">Student </a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="signin.html">Sign In </a></li>
+                            <li><a href="signup.html">Sign Up </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <div class="student-info">
+                <h2>Welcome, <span id="student-name">John Doe</span></h2>
+                <div class="student-details">
+                    <p>Email: <span id="student-email">john.doe@example.com</span></p>
+                    <p>Student ID: <span id="student-id">123456789</span></p>
+                    <p>Joined: <span id="join-date">January 15, 2023</span></p>
+                </div>
+            </div>
+
+            <section class="courses">
+                <h3>Your Courses</h3>
+                <div class="course-list" id="course-list">
+                    <!-- Courses will be populated by JavaScript -->
+                </div>
+            </section>
+
+            <section class="upcoming-events">
+                <h3>Upcoming Events</h3>
+                <div class="event-list" id="event-list">
+                    <!-- Events will be populated by JavaScript -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="./script/student.js"></script>
+</body>
+</html>
